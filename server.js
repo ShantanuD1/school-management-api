@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.use("/", schoolRoutes);
 app.get("/", (req, res) => {
-  res.send("School API is running 🚀");
+  res.send("School API is running ??");
 });
 
 const PORT = process.env.PORT || 3000;
